@@ -11,6 +11,8 @@
 		4BBD9EC91CE4BF7700979F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD9EC81CE4BF7700979F93 /* main.m */; };
 		4BBD9ECB1CE4BF7700979F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD9ECA1CE4BF7700979F93 /* Assets.xcassets */; };
 		4BBD9ECE1CE4BF7700979F93 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD9ECC1CE4BF7700979F93 /* MainMenu.xib */; };
+		4BBD9ED81CE4BFA700979F93 /* SPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD9ED61CE4BFA700979F93 /* SPTableViewController.m */; };
+		4BBD9ED91CE4BFA700979F93 /* SPTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD9ED71CE4BFA700979F93 /* SPTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		4BBD9ECA1CE4BF7700979F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBD9ECD1CE4BF7700979F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4BBD9ECF1CE4BF7700979F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBD9ED51CE4BFA700979F93 /* SPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTableViewController.h; sourceTree = "<group>"; };
+		4BBD9ED61CE4BFA700979F93 /* SPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTableViewController.m; sourceTree = "<group>"; };
+		4BBD9ED71CE4BFA700979F93 /* SPTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,9 @@
 				4BBD9ECC1CE4BF7700979F93 /* MainMenu.xib */,
 				4BBD9ECF1CE4BF7700979F93 /* Info.plist */,
 				4BBD9EC71CE4BF7700979F93 /* Supporting Files */,
+				4BBD9ED51CE4BFA700979F93 /* SPTableViewController.h */,
+				4BBD9ED61CE4BFA700979F93 /* SPTableViewController.m */,
+				4BBD9ED71CE4BFA700979F93 /* SPTableViewController.xib */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBD9ECB1CE4BF7700979F93 /* Assets.xcassets in Resources */,
+				4BBD9ED91CE4BFA700979F93 /* SPTableViewController.xib in Resources */,
 				4BBD9ECE1CE4BF7700979F93 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +151,7 @@
 			files = (
 				4BBD9EC91CE4BF7700979F93 /* main.m in Sources */,
 				4BBD9EC61CE4BF7700979F93 /* AppDelegate.m in Sources */,
+				4BBD9ED81CE4BFA700979F93 /* SPTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +176,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -209,7 +219,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
