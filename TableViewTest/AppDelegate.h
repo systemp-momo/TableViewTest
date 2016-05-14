@@ -10,7 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (assign) IBOutlet NSView* view;
-
-
+//@property (nonatomic, retain)IBOutlet NSArrayController *arrayController;
+@property (nonatomic, retain)NSArray* array;
 @end
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5DBCA71CE6BBEC00772AB7 /* ViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DBCA61CE6BBEC00772AB7 /* ViewDataModel.m */; };
 		4BBD9EC61CE4BF7700979F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD9EC51CE4BF7700979F93 /* AppDelegate.m */; };
 		4BBD9EC91CE4BF7700979F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD9EC81CE4BF7700979F93 /* main.m */; };
 		4BBD9ECB1CE4BF7700979F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD9ECA1CE4BF7700979F93 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B5DBCA51CE6BBEC00772AB7 /* ViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDataModel.h; sourceTree = "<group>"; };
+		4B5DBCA61CE6BBEC00772AB7 /* ViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDataModel.m; sourceTree = "<group>"; };
 		4BBD9EC11CE4BF7700979F93 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD9EC41CE4BF7700979F93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BBD9EC51CE4BF7700979F93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				4BBD9ED51CE4BFA700979F93 /* SPTableViewController.h */,
 				4BBD9ED61CE4BFA700979F93 /* SPTableViewController.m */,
 				4BBD9ED71CE4BFA700979F93 /* SPTableViewController.xib */,
+				4B5DBCA51CE6BBEC00772AB7 /* ViewDataModel.h */,
+				4B5DBCA61CE6BBEC00772AB7 /* ViewDataModel.m */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5DBCA71CE6BBEC00772AB7 /* ViewDataModel.m in Sources */,
 				4BBD9EC91CE4BF7700979F93 /* main.m in Sources */,
 				4BBD9EC61CE4BF7700979F93 /* AppDelegate.m in Sources */,
 				4BBD9ED81CE4BFA700979F93 /* SPTableViewController.m in Sources */,
@@ -291,6 +297,7 @@
 				4BBD9ED41CE4BF7700979F93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

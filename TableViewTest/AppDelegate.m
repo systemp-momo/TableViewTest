@@ -16,6 +16,22 @@
 @end
 
 @implementation AppDelegate
+-(id)init
+{
+    self = [super init];
+    if(self!=nil)
+    {
+        _array = [[NSArray alloc]initWithObjects:@"a",@"b", nil];
+    }
+    return self;
+}
+-(void)dealloc
+{
+    [_array release];
+//    [_arrayController release];
+    
+    [super dealloc];
+}
 
 -(void)awakeFromNib
 {
