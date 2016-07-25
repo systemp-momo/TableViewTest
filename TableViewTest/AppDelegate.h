@@ -12,5 +12,7 @@
 @property (assign) IBOutlet NSView* view;
 //@property (nonatomic, retain)IBOutlet NSArrayController *arrayController;
 @property (nonatomic, retain)NSArray* array;
+@property (retain) NSMutableArray* bindingArray;
+@property (assign)IBOutlet NSArrayController* bindingArrayController;
 @end
 
